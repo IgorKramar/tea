@@ -1,0 +1,47 @@
+# Jekyll конфигурация для чайного мануала
+title: "Чайный мануал"
+description: "Личное руководство по чаям с методами заваривания, советами и рекомендациями"
+author: "Икрамар"
+email: "your-email@example.com"
+
+# Настройки сайта
+baseurl: "/tea"  # если репозиторий называется tea
+url: "https://yourusername.github.io"  # замените на ваш username
+
+# Jekyll настройки
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Плагины
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Настройки для GitHub Pages
+github: [metadata]
+
+# Навигация
+navigation:
+  - title: "Главная"
+    url: "/"
+  - title: "Чайная карта"
+    url: "/mood-map"
+  - title: "Гайды по чаям"
+    url: "/teas/"
+  - title: "Советы"
+    url: "/tips/"
+  - title: "Схемы"
+    url: "/schemes/"
+
+# Настройки отображения
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Цветовая схема
+colors:
+  primary: "#2c3e50"
+  secondary: "#3498db"
+  accent: "#e74c3c"
+  background: "#f8f9fa"
