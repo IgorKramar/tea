@@ -36,13 +36,13 @@ jobs:
       - name: Install dependencies
         run: npm install
         
-     - name: Build
+      - name: Build
         run: npm run docs:build
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .vuepress/dist  # изменили с docs/.vuepress/dist
+          path: .vuepress/dist
           
       - name: Deploy to GitHub Pages
         id: deployment
