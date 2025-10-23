@@ -1,4 +1,4 @@
-name: Deploy Simple HTML Site
+name: Deploy Tea Manual
 
 on:
   push:
