@@ -3,10 +3,7 @@ source "https://rubygems.org"
 # Jekyll
 gem "jekyll", "~> 4.3"
 
-# GitHub Pages совместимость
-gem "github-pages", group: :jekyll_plugins
-
-# Плагины
+# Плагины (без github-pages для совместимости)
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
