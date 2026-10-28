@@ -14,6 +14,8 @@ Brewing methods · Tea profiles · Tasting and teaware
 
 [Read online](https://igorkramar.github.io/tea/) · [Explore](#explore) · [Run locally](#run-locally) · [Publishing](#publishing)
 
+[![MIT](https://img.shields.io/badge/license-MIT-9ece6a?style=flat-square)](../LICENSE)
+
 </div>
 
 A personal Russian-language tea handbook: how to brew, what to taste, which vessel to choose and how to store your tea. Read the published site or browse the Markdown sources directly.
@@ -62,4 +64,4 @@ Improve a tea profile, clarify a brewing step or fix a link. Keep subjective tas
 
 ## License
 
-The original homepage declares MIT, but this checkout has no standalone license file. Third-party references retain their respective rights.
+[MIT](../LICENSE) · Copyright © 2026 Igor Kramar. Third-party materials and linked resources retain their respective licenses and rights.
